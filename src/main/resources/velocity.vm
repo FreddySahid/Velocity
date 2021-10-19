@@ -1,0 +1,22 @@
+<html>
+  <body>
+  #set( $foo = "Velocity" )
+  Hello $nombre $apellido World! <br>
+
+  
+
+  <table>
+  <th>email</th>
+  <th>id</th>
+  <th>pass</th>
+  <tr>
+ 
+  #foreach($u in $usuarios)
+      <td> $u.nombre </td>
+      <td> $u.id </td>
+      <td> $u.carrera </td>
+        </tr>
+  #end
+  </table>
+  </body>
+</html>
