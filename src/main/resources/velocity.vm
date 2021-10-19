@@ -1,14 +1,12 @@
 <html>
   <body>
   #set( $foo = "Velocity" )
-  Hello $nombre $apellido World! <br>
-
   
 
   <table>
-  <th>email</th>
-  <th>id</th>
-  <th>pass</th>
+  <th>Nombre</th>
+  <th>ID</th>
+  <th>Carrera</th>
   <tr>
  
   #foreach($u in $usuarios)
