@@ -1,7 +1,7 @@
 <html>
   <body>
-  #set( $foo = "Velocity" )
-  
+  #set( $Palabra = "Velocity" )
+   
 
   <table>
   <th>Nombre</th>
@@ -15,6 +15,13 @@
       <td> $u.carrera </td>
         </tr>
   #end
+
+  #if($Palabra == "Velocity")
+  #set($Frase = Ejemplo $Palabra)
+  $Frase
+  #end
+  $Frase
+  
   </table>
   </body>
 </html>
